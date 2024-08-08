@@ -4,6 +4,6 @@ Felipe Gabriel Cabral
 
 API REST C# .NET CORE 6
 - Docker
-- SQLServer
+- SQL - SQLServer
 - DDD
 - IoC
