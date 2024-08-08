@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Felipe</name>
+    </assembly>
+    <members>
+        <member name="M:Felipe.Presentation.Controllers.ChecklistController.GetChecklists">
+            <summary>
+            Returns all checklist data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Felipe.Presentation.Controllers.ChecklistController.GetChecklist(System.Int32)">
+            <summary>
+            Returns the checklist by id
+            </summary>
+            <param name="id">Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Felipe.Presentation.Controllers.ChecklistController.PostChecklist(Felipe.Domain.Models.Checklist)">
+            <summary>
+            Checklist registration
+            </summary>
+            <param name="checklist">Checklist</param>
+            <returns></returns>
+        </member>
+        <member name="M:Felipe.Presentation.Controllers.ChecklistController.PutChecklist(System.Int32,Felipe.Domain.Models.Checklist)">
+            <summary>
+            Change to the Checklist
+            </summary>
+            <param name="id">Id</param>
+            <param name="checklist">Checklist</param>
+            <returns></returns>
+        </member>
+        <member name="M:Felipe.Presentation.Controllers.ChecklistController.DeleteChecklist(System.Int32)">
+            <summary>
+            Delete the checklist
+            </summary>
+            <param name="id">Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Felipe.Presentation.Controllers.ChecklistController.StartChecklist(System.Int32,System.Int32)">
+            <summary>
+            Checklist execution
+            </summary>
+            <param name="id">Id</param>
+            <param name="executorId">ExecutorId</param>
+            <returns></returns>
+        </member>
+        <member name="M:Felipe.Presentation.Controllers.ChecklistController.CompleteChecklist(System.Int32,System.Int32)">
+            <summary>
+            Complete checklist
+            </summary>
+            <param name="id">Id</param>
+            <param name="executorId">ExecutorId</param>
+            <returns></returns>
+        </member>
+        <member name="M:Felipe.Presentation.Controllers.ChecklistItemController.GetChecklistItems">
+            <summary>
+            Returns all Checklist items
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Felipe.Presentation.Controllers.ChecklistItemController.GetChecklistItem(System.Int32)">
+            <summary>
+            Returns Checklist items by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Felipe.Presentation.Controllers.ChecklistItemController.PostChecklistItem(Felipe.Domain.Models.ChecklistItem)">
+            <summary>
+            Registration of Checklist items
+            </summary>
+            <param name="checklistItem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Felipe.Presentation.Controllers.ChecklistItemController.PutChecklistItem(System.Int32,Felipe.Domain.Models.ChecklistItem)">
+            <summary>
+            Change to checklist items
+            </summary>
+            <param name="checklistItem">ChecklistItem</param>
+            <param name="id">Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Felipe.Presentation.Controllers.ChecklistItemController.DeleteChecklistItem(System.Int32)">
+            <summary>
+            Delete a checklist item
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
